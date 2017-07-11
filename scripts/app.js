@@ -1,5 +1,13 @@
 'use strict';
 
+
+$(document).ready(function(){
+  $('#hamburger').click(function(){
+    $('nav ul').toggle();
+  })
+});
+
+
 function Entry(name,thumbnail,url,description){
   this.name = name;
   this.author = 'Alana Franklin';
@@ -7,7 +15,3 @@ function Entry(name,thumbnail,url,description){
   this.url = url;
   this.description = description;
 }
-
-$(document).ready(function(){
-  
-});
