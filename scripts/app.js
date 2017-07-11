@@ -7,7 +7,3 @@ function Entry(name,thumbnail,url,description){
   this.url = url;
   this.description = description;
 }
-
-Entry.prototype.addEntry(){
-
-}
