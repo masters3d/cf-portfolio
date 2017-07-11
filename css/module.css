@@ -1,0 +1,28 @@
+/************* NAVIGATION *************/
+header {
+  background-color: pink;
+}
+
+header #header-logo{
+  width: 79%;
+  padding: 1%;
+  font-size: 40px;
+  float: left;
+}
+
+header nav #hamburger {
+  font-size: 40px;
+  float: right;
+}
+
+header #header-nav {
+  width: 20%;
+}
+
+header ul {
+  display: none;
+}
+
+@media (min-width:600px) {
+
+}
