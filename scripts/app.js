@@ -9,5 +9,5 @@ function Entry(name,thumbnail,url,description){
 }
 
 $(document).ready(function(){
-  console.log('hi');
+  
 });

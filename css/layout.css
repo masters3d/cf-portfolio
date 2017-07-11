@@ -28,6 +28,15 @@
   width: 100%;
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 @media (min-width: 600px) {
   .col-1 {
     width: 8.33%

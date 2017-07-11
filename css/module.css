@@ -1,22 +1,21 @@
 /************* NAVIGATION *************/
 header {
   background-color: pink;
-}
-
-header #header-logo{
-  width: 79%;
   padding: 1%;
-  font-size: 40px;
-  float: left;
 }
 
-header nav #hamburger {
+header h1{
   font-size: 40px;
+  display: inline;
+}
+
+header nav {
+  display: inline;
   float: right;
 }
-
-header #header-nav {
-  width: 20%;
+header nav #hamburger {
+  font-size: 40px;
+  display: inline;
 }
 
 header ul {
@@ -25,4 +24,20 @@ header ul {
 
 @media (min-width:600px) {
 
+  header nav {
+    min-width: 225px; /* needed to fix issue of nav not resizing to correct size when window is resized from small to large */
+  }
+  header ul {
+    display: block;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  header li {
+    display: inline;
+    margin-left: 5%;;
+  }
+  header nav #hamburger {
+    display: none;
+  }
 }
