@@ -1,11 +1,10 @@
 /************* HEADER *************/
 header {
   background-color: pink;
-  padding: 1%;
+  padding: 2% 5%;
 }
 
 header h1{
-  font-size: 40px;
   display: inline;
 }
 
@@ -13,6 +12,7 @@ header #hamburger {
   font-size: 40px;
   display: inline;
   float: right;
+  padding-top: 15px;
 }
 
 header ul {
@@ -20,19 +20,4 @@ header ul {
   list-style: none;
 }
 
-@media (min-width:600px) {
-
-  header ul {
-    display: inline !important;
-  }
-  header li {
-    display: inline;
-    margin-left: 5%;
-    float: right;
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  header #hamburger {
-    display: none;
-  }
-}
+/************* PORTFOLIO ARTICLES *************/
