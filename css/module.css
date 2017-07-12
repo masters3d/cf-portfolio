@@ -1,6 +1,5 @@
 /************* HEADER *************/
 header {
-  background-color: pink;
   padding: 2% 5%;
 }
 
@@ -22,9 +21,17 @@ header ul {
 
 /************* PORTFOLIO ARTICLE ENTRIES *************/
  #portfolio article {
-   border: 10px solid red;
    padding: 5%;
+   border-bottom: 1px solid darkgray;
+   text-align: center;
  }
+
+ #portfolio article:last-of-type {
+   border: none;
+ }
+
+ /* TODO: Some type of media query that gets rid of the border on the alst two items if there are an even number or articles on 800px and larger viewports*/
+
  #portfolio h3 {
    text-decoration: underline;
  }
