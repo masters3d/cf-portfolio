@@ -20,18 +20,13 @@ header ul {
 }
 
 /************* PORTFOLIO ARTICLE ENTRIES *************/
- #portfolio article {
-   padding: 5%;
-   border-bottom: 1px solid darkgray;
-   text-align: center;
- }
+#portfolio article {
+  padding: 5%;
+  border-bottom: 1px solid darkgray;
+  text-align: center;
+}
 
- #portfolio article:last-of-type {
-   border: none;
- }
-
- /* TODO: Some type of media query that gets rid of the border on the alst two items if there are an even number or articles on 800px and larger viewports*/
-
- #portfolio h3 {
-   text-decoration: underline;
- }
+/* Removes bottom border from last item as to not get a double border at the end of the section*/
+#portfolio article:last-of-type {
+  border: none;
+}

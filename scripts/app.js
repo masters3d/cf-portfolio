@@ -31,10 +31,12 @@ Entry.prototype.toHtml = function() {
 
   if (!this.publishedOn) $newEntry.addClass('draft');
 
-  $newEntry.find('h3').text(this.name);
+  $newEntry.find('h3').html('<a href="" target="_BLANK">' + this.name + '</a>');
+  $newEntry.find('h3 a').attr('alt', this.name);
   $newEntry.find('p').text(this.description);
   $newEntry.find('a').attr('href', this.url);
   $newEntry.find('a').attr('alt', this.name);
+  $newEntry.find('.thumbnailLink').html('<img src="' + this.url + '" alt="' + this.name +'"/>');
   $newEntry.find('img').attr('alt', this.name);
   $newEntry.find('img').attr('src', this.thumbnailUrl);
 
