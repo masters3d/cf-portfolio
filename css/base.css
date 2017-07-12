@@ -12,3 +12,7 @@ h1 {
   font-family: 'Bad Script', cursive;
   font-size: 40px;
 }
+
+.template {
+  display: none;
+}

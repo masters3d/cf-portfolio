@@ -20,4 +20,11 @@ header ul {
   list-style: none;
 }
 
-/************* PORTFOLIO ARTICLES *************/
+/************* PORTFOLIO ARTICLE ENTRIES *************/
+ #portfolio article {
+   border: 10px solid red;
+   padding: 5%;
+ }
+ #portfolio h3 {
+   text-decoration: underline;
+ }
