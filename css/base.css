@@ -12,3 +12,20 @@ h1 {
   font-family: 'Bad Script', cursive;
   font-size: 40px;
 }
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.template {
+  display: none;
+}
+
+main section {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}

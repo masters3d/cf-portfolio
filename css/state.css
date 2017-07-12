@@ -15,3 +15,19 @@
     display: none;
   }
 }
+
+/************* PORTFOLIO ARTICLE ENTRIES *************/
+@media (min-width: 600px) {
+
+  /* To make sure that the bottom borders are lining up, prevent the description from overflowing*/
+  article p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Removes bottom border from second to last item as to not get a double border at the end of the section (the last item is taken care of in the mobile styling)*/
+  #portfolio article:last-of-type, #portfolio article:nth-last-of-type(-n+2) {
+    border: none;
+  }
+}

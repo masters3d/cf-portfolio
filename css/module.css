@@ -1,6 +1,5 @@
 /************* HEADER *************/
 header {
-  background-color: pink;
   padding: 2% 5%;
 }
 
@@ -20,4 +19,14 @@ header ul {
   list-style: none;
 }
 
-/************* PORTFOLIO ARTICLES *************/
+/************* PORTFOLIO ARTICLE ENTRIES *************/
+#portfolio article {
+  padding: 5%;
+  border-bottom: 1px solid darkgray;
+  text-align: center;
+}
+
+/* Removes bottom border from last item as to not get a double border at the end of the section*/
+#portfolio article:last-of-type {
+  border: none;
+}
