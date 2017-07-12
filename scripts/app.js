@@ -8,10 +8,10 @@ $(document).ready(function(){
 });
 
 
-function Entry(name,thumbnail,url,description){
+function Entry(name, thumbnailUrl, url, description){
   this.name = name;
   this.author = 'Alana Franklin';
-  this.thumbnail = 'img/' + thumbnail;
+  this.thumbnailUrl = thumbnailUrl;
   this.url = url;
   this.description = description;
 }
