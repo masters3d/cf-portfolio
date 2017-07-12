@@ -1,6 +1,14 @@
 /************* RESET *************/
+* {
+  font-family: 'Josefin Sans';
+}
 
 html,body,h1,h2,h3,h4,h5,h6,nav,ul {
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
 }
