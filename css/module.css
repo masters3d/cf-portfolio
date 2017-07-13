@@ -19,6 +19,16 @@ header ul {
   list-style: none;
 }
 
+header li {
+  border-bottom: 1px solid darkgrey;
+  text-align: center;
+  padding:2%;
+}
+
+header li:first-of-type {
+  border-top: 1px solid darkgrey;
+}
+
 /************* PORTFOLIO ARTICLE ENTRIES *************/
 #portfolio article {
   padding: 5%;

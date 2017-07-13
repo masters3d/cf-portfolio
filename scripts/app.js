@@ -3,10 +3,6 @@
 var entries = [];
 
 $(document).ready(function(){
-  $('#hamburger').click(function(){
-    $('header ul').toggle();
-  })
-
   portfolioContent.forEach(function(entryObject) {
     entries.push(new Entry(entryObject));
   });
