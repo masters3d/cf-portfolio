@@ -40,3 +40,18 @@ header li:first-of-type {
 #portfolio article:last-of-type {
   border: none;
 }
+
+/************* CONTACT *************/
+
+#contact {
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0% 10%;
+}
+
+i {
+  font-size: 72px;
+}
