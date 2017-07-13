@@ -86,3 +86,9 @@
     width: 100%
   }
 }
+
+/************* SEMANTIC STYLES *************/
+
+.right {
+  float: right;
+}
