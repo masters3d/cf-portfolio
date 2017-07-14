@@ -20,10 +20,10 @@ var portfolioContent = [
     url: 'http://www.resume.alanafrankly.com/projects/sketchpad/index.html',
     description: 'An recreation of an Etch-a-Sketch using Javascript.'
   }, {
-    name: 'Periodic Table',
+    name: 'Tax Calculator',
     author: 'Alana Franklin',
-    thumbnailUrl: 'http://www.resume.alanafrankly.com/projects/Periodic-Table/thumbnail.png',
-    url: 'http://www.resume.alanafrankly.com/projects/Periodic-Table/index.html',
-    description: 'Interactive Periodic Table using JavaScript'
+    thumbnailUrl: 'http://www.resume.alanafrankly.com/projects/TaxCalculator/thumbnail.png',
+    url: 'http://www.resume.alanafrankly.com/projects/TaxCalculator/index.html',
+    description: 'Interactive Tax Calculator using JavaScript'
   }
 ];
