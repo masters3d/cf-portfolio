@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/module.css">
     <link rel="stylesheet" href="css/state.css">
+    <script type="text/x-handlebars-template" id="handlebarsTemplate">
+      <article class="column col-6">
+        <a href="{{url}}" alt="{{name}}" target="_blank"><h3 class="{{name}}">{{name}}</h2></a>
+        <p class="{{description}}">{{description}}</p>
+        <a target="_BLANK" href="{{url}}" target="_blank" alt="{{name}}" class="thumbnailLink"><img src="{{thumbnailUrl}}" alt="{{title}}" /></a>
+      </article>
+    </script>
   </head>
   <body>
     <header>
@@ -23,11 +30,7 @@
     </header>
     <main>
       <section id="portfolio" class="row">
-        <article class="template column col-6">
-          <h3 class="portfolioTitle"></h2>
-          <p class="portfolioDescription"></p>
-          <a target="_BLANK" href="" target="" alt="" class="thumbnailLink"></a>
-        </article>
+        <!-- Handlebars templating to go here -->
       </section>
       <section id="about">
         <h2>About</h2>
@@ -43,6 +46,8 @@
       </section>
     </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+
   <script type="text/javascript" src="scripts/portfolioContent.js"></script>
   <script type="text/javascript" src="scripts/app.js"></script>
   <script type="text/javascript" src="scripts/navigation.js"></script>

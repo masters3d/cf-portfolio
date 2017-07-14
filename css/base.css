@@ -3,6 +3,10 @@
   font-family: 'Josefin Sans';
 }
 
+html {
+  font-size: 1em;
+}
+
 html,body,h1,h2,h3,h4,h5,h6,nav,ul {
   padding: 0;
   margin: 0;
@@ -10,12 +14,13 @@ html,body,h1,h2,h3,h4,h5,h6,nav,ul {
 
 h1 {
   font-family: 'Bad Script', cursive;
-  font-size: 40px;
+  font-size: 36px;
+  margin-top: 0;
 }
 
 h2 {
   text-align: left;
-  margin: 5% 0%;
+  /*margin: 5% 0%;*/
 }
 
 a {
@@ -24,10 +29,6 @@ a {
 }
 a:hover {
   text-decoration: none;
-}
-
-.template {
-  display: none;
 }
 
 main section {

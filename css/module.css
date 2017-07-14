@@ -22,7 +22,6 @@ header ul {
 header li {
   border-bottom: 1px solid darkgrey;
   text-align: center;
-  padding:2%;
 }
 
 header li:first-of-type {
@@ -47,11 +46,11 @@ header li:first-of-type {
     text-align: center;
 }
 
-a {
+#contact a {
   text-decoration: none;
   margin: 0% 10%;
 }
 
-i {
+#contact i {
   font-size: 60px;
 }
