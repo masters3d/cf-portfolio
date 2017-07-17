@@ -21,7 +21,11 @@ header ul {
 
 header li {
   border-bottom: 1px solid darkgrey;
+  padding: 10px 0px;
   text-align: center;
+}
+header li:last-of-type {
+  border-bottom: 0px;
 }
 
 header li:first-of-type {
