@@ -37,7 +37,7 @@
   height: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .col-1 {
     width: 8.33%
   }
