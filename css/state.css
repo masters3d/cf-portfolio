@@ -1,5 +1,5 @@
 /************* HEADER *************/
-@media (min-width:600px) {
+@media (min-width:700px) {
 
   header ul {
     display: inline !important;
@@ -21,7 +21,7 @@
 }
 
 /************* PORTFOLIO ARTICLE ENTRIES *************/
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
   /* To make sure that the bottom borders are lining up, prevent the description from overflowing*/
   article p {
