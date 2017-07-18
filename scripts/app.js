@@ -12,16 +12,27 @@ function renderTemplate(){
 }
 
 Article.fetchData = function(){
-  let path = '/data/portfolioContent.json';
-  $.getJSON(path).then(success, failure);
+  if (localStorage.portfolioContent){
+    Article.loadData(JSON.parse(localStorage.getItem('portfolioContent')));
+  } else {
+    let path = '/data/portfolioContent.json';
+    $.getJSON(path).then(success, failure);
+  }
 
   function success(data){
-    console.log(data);
+    Article.loadData(data);
+    localStorage.setItem('portfolioContent', JSON.stringify(data));
   }
 
   function failure(error){
     console.err(error);
   }
+}
+
+
+Article.loadData = function(data){
+  console.log('loading data!');
+  console.log(data);
 }
 
 $(document).ready(function(){
