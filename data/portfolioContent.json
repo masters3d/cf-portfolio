@@ -16,4 +16,10 @@
 	"thumbnailUrl": "http://www.resume.alanafrankly.com/projects/sketchpad/thumbnail.png",
 	"url": "http://www.resume.alanafrankly.com/projects/sketchpad/index.html",
 	"description": "An recreation of an Etch-a-Sketch using Javascript."
+}, {
+	"name": "Tax Calculator",
+  "author": "Alana Franklin",
+  "thumbnailUrl": "http://www.resume.alanafrankly.com/projects/TaxCalculator/thumbnail.png",
+  "url": "http://www.resume.alanafrankly.com/projects/TaxCalculator/index.html",
+  "description": "Interactive Tax Calculator using JavaScript"
 }]
