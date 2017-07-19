@@ -1,0 +1,22 @@
+{
+  "name": "cf-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Code Fellows 301 Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanafrankly/cf-portfolio.git"
+  },
+  "author": "Alana Franklin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanafrankly/cf-portfolio/issues"
+  },
+  "homepage": "https://github.com/alanafrankly/cf-portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
