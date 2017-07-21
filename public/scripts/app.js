@@ -29,3 +29,7 @@ PortItem.loadData = function(data){
     $('#portfolio').append(html); // Add it to the page
   })
 }
+
+$(document).ready(function(){
+  PortItem.fetchData();
+})
